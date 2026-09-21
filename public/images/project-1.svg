@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="533" viewBox="0 0 800 533">
+  <rect width="800" height="533" fill="#0F1424"/>
+  <rect x="0" y="0" width="800" height="533" fill="url(#g1)" opacity="0.5"/>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="800" y2="533" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4A24C" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0A0E1A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="40" y="480" font-family="monospace" font-size="20" fill="#8B93A7">project-1.jpg placeholder — replace in /public/images</text>
+</svg>

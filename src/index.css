@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-line;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink text-fog font-body antialiased;
+    background-image:
+      radial-gradient(ellipse 900px 500px at 85% -10%, rgba(212, 162, 76, 0.08), transparent 60%),
+      radial-gradient(ellipse 700px 500px at -10% 40%, rgba(201, 106, 75, 0.05), transparent 60%);
+    background-attachment: fixed;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-paper;
+  }
+  ::selection {
+    @apply bg-gold/25 text-paper;
+  }
+}
+
+@layer utilities {
+  .container-px {
+    @apply px-6 md:px-10 lg:px-16;
+  }
+  .section-y {
+    @apply py-24 md:py-32;
+  }
+  .rule {
+    @apply border-t border-line;
+  }
+  .num {
+    @apply font-mono text-xs text-gold tabular-nums;
+  }
+  .btn-primary {
+    @apply relative inline-flex items-center gap-2 bg-gold text-ink font-body font-semibold px-7 py-3.5 text-sm tracking-wide transition-colors duration-300 hover:bg-goldSoft;
+  }
+  .btn-outline {
+    @apply relative inline-flex items-center gap-2 border border-line text-paper font-body font-medium px-7 py-3.5 text-sm tracking-wide transition-colors duration-300 hover:border-gold hover:text-gold;
+  }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.3s ease;
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
