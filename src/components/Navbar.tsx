@@ -36,7 +36,7 @@ export default function Navbar() {
           SANKET<span className="text-gold">.</span>
         </a>
 
-        <ul className="hidden md:flex items-center gap-9">
+        <ul className="hidden lg:flex items-center gap-6 xl:gap-9">
           {links.map((link) => (
             <li key={link.href}>
               <a
@@ -50,7 +50,7 @@ export default function Navbar() {
         </ul>
 
         <button
-          className="md:hidden text-paper"
+          className="lg:hidden min-h-12 min-w-12 flex items-center justify-end text-paper"
           onClick={() => setOpen(true)}
           aria-label="Open menu"
         >
@@ -64,7 +64,7 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-ink md:hidden"
+            className="fixed inset-0 z-50 overflow-y-auto bg-ink lg:hidden"
           >
             <div className="container-px flex items-center justify-between h-20">
               <span className="font-display text-lg text-paper">SANKET<span className="text-gold">.</span></span>

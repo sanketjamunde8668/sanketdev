@@ -26,7 +26,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section-y rule">
-      <div className="container-px grid lg:grid-cols-2 gap-16">
+      <div className="container-px grid lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-16">
         <div>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -40,7 +40,7 @@ export default function Contact() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl tracking-tight mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl tracking-tight mb-6"
           >
             Let's work together.
           </motion.h2>
@@ -70,9 +70,9 @@ export default function Contact() {
                   rel="noreferrer"
                   className="group flex items-center justify-between py-4 text-paper hover:text-gold transition-colors"
                 >
-                  <span className="flex items-center gap-3 text-sm md:text-base">
-                    <Icon size={16} className="text-gold" />
-                    {label}
+                  <span className="min-w-0 flex items-center gap-3 text-sm md:text-base">
+                    <Icon size={16} className="text-gold shrink-0" />
+                    <span className="break-all">{label}</span>
                   </span>
                   <ArrowUpRight
                     size={16}
@@ -90,7 +90,7 @@ export default function Contact() {
           viewport={{ once: true }}
           transition={{ delay: 0.15 }}
           onSubmit={handleSubmit}
-          className="flex flex-col gap-6"
+          className="flex min-w-0 flex-col gap-6"
         >
           <div>
             <label htmlFor="name" className="font-mono text-xs uppercase tracking-widest text-muted">

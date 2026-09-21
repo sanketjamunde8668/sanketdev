@@ -11,11 +11,11 @@ export default function Footer() {
   return (
     <footer className="rule">
       <div className="container-px py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-        <div>
-          <p className="font-display text-xl text-paper">
+        <div className="min-w-0">
+          <p className="font-display text-lg sm:text-xl text-paper">
             SANKET DEVELOPER<span className="text-gold">.</span>
           </p>
-          <p className="font-mono text-xs text-muted mt-1 uppercase tracking-widest">
+          <p className="font-mono text-[10px] sm:text-xs text-muted mt-1 uppercase tracking-[0.12em] sm:tracking-widest">
             Web Developer · AI Automation
           </p>
         </div>

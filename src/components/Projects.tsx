@@ -18,7 +18,7 @@ export default function Projects() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl tracking-tight mb-16 max-w-2xl"
+          className="text-3xl sm:text-4xl md:text-5xl tracking-tight mb-10 sm:mb-16 max-w-2xl"
         >
           A selection of things I've built.
         </motion.h2>
@@ -31,12 +31,12 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="group bg-ink grid md:grid-cols-[auto_1fr_auto] gap-6 md:gap-10 items-center py-10"
+              className="group bg-ink grid lg:grid-cols-[auto_1fr_auto] gap-6 lg:gap-10 items-start lg:items-center py-8 sm:py-10"
             >
               <span className="font-mono text-sm text-gold">{project.index}</span>
 
-              <div className="overflow-hidden order-3 md:order-none">
-                <div className="aspect-[16/10] md:aspect-[3/2] overflow-hidden bg-surface">
+              <div className="overflow-hidden order-3 lg:order-none w-full lg:w-auto">
+                <div className="aspect-[16/10] sm:aspect-[3/2] overflow-hidden bg-surface">
                   <img
                     src={project.image}
                     alt={project.name}
@@ -46,7 +46,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="md:pl-4">
+              <div className="lg:pl-4 min-w-0">
                 <h3 className="text-2xl text-paper mb-3">{project.name}</h3>
                 <p className="text-sm text-muted leading-relaxed max-w-md mb-5">
                   {project.description}

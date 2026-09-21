@@ -17,12 +17,12 @@ export default function Skills() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl tracking-tight mb-16 max-w-2xl"
+          className="text-3xl sm:text-4xl md:text-5xl tracking-tight mb-10 sm:mb-16 max-w-2xl"
         >
           Tools and technologies I reach for daily.
         </motion.h2>
 
-        <div className="grid md:grid-cols-3 gap-px bg-line border border-line">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-line border border-line">
           {skillGroups.map((group, gi) => (
             <motion.div
               key={group.id}
@@ -30,7 +30,7 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: gi * 0.1 }}
-              className="bg-ink p-8"
+              className="bg-ink p-6 sm:p-8"
             >
               <span className="font-mono text-xs text-gold">{group.index}</span>
               <h3 className="text-2xl mt-3 mb-2 text-paper">{group.title}</h3>

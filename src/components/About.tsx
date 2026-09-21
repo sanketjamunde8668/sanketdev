@@ -12,7 +12,7 @@ const details = [
 export default function About() {
   return (
     <section id="about" className="section-y rule">
-      <div className="container-px grid lg:grid-cols-[0.9fr_1.1fr] gap-16">
+      <div className="container-px grid lg:grid-cols-[0.9fr_1.1fr] gap-10 sm:gap-12 lg:gap-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -20,7 +20,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
         >
           <p className="num mb-4">01 — About</p>
-          <h2 className="text-4xl md:text-5xl tracking-tight mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl tracking-tight mb-6">
             A developer with one foot in interfaces, the other in automation.
           </h2>
           <div className="space-y-5 text-muted leading-relaxed max-w-prose">
@@ -55,11 +55,11 @@ export default function About() {
           </p>
           <dl className="divide-y divide-line border-t border-line">
             {details.map((d) => (
-              <div key={d.label} className="flex items-center justify-between py-4 gap-4">
+              <div key={d.label} className="flex items-start justify-between py-4 gap-4">
                 <dt className="font-mono text-xs uppercase tracking-widest text-muted shrink-0">
                   {d.label}
                 </dt>
-                <dd className="text-paper text-sm md:text-base text-right break-all">{d.value}</dd>
+                <dd className="min-w-0 text-paper text-sm md:text-base text-right break-words">{d.value}</dd>
               </div>
             ))}
           </dl>

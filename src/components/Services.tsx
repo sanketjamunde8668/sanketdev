@@ -17,7 +17,7 @@ export default function Services() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl tracking-tight mb-16 max-w-2xl"
+          className="text-3xl sm:text-4xl md:text-5xl tracking-tight mb-10 sm:mb-16 max-w-2xl"
         >
           What I can build for you.
         </motion.h2>
@@ -32,7 +32,7 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.5, delay: i * 0.06 }}
-                className="border-r border-b border-line p-8 flex flex-col gap-6 hover:bg-surface/50 transition-colors duration-300"
+                className="border-r border-b border-line p-6 sm:p-8 flex flex-col gap-6 hover:bg-surface/50 transition-colors duration-300"
               >
                 <div className="flex items-start justify-between">
                   <Icon className="text-gold" size={22} strokeWidth={1.5} />
