@@ -52,6 +52,8 @@ export default function Navbar() {
         <button
           className="lg:hidden min-h-12 min-w-12 flex items-center justify-end text-paper"
           onClick={() => setOpen(true)}
+          aria-expanded={open}
+          aria-controls="mobile-navigation"
           aria-label="Open menu"
         >
           <Menu size={22} />
@@ -61,6 +63,7 @@ export default function Navbar() {
       <AnimatePresence>
         {open && (
           <motion.div
+            id="mobile-navigation"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

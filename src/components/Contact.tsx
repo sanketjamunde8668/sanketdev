@@ -99,6 +99,8 @@ export default function Contact() {
             <input
               id="name"
               required
+              autoComplete="name"
+              name="name"
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
               className="w-full mt-2 bg-transparent border-b border-line py-3 text-paper placeholder:text-muted/60 focus:outline-none focus:border-gold transition-colors"
@@ -113,6 +115,8 @@ export default function Contact() {
               id="email"
               type="email"
               required
+              autoComplete="email"
+              name="email"
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
               className="w-full mt-2 bg-transparent border-b border-line py-3 text-paper placeholder:text-muted/60 focus:outline-none focus:border-gold transition-colors"
@@ -126,6 +130,7 @@ export default function Contact() {
             <textarea
               id="message"
               required
+              name="message"
               rows={4}
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
@@ -146,7 +151,7 @@ export default function Contact() {
             )}
           </Button>
           {status === "sent" && (
-            <p className="text-xs text-muted">
+            <p className="text-xs text-muted" aria-live="polite">
               Your email client should have opened with this message pre-filled — just hit send.
             </p>
           )}
