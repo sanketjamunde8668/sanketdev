@@ -34,7 +34,7 @@ export default function Navbar() {
       <nav className="container-px flex items-center justify-between h-20">
         <a href="#home" className="flex items-center" aria-label="Sanket Jamunde home">
           <img
-            src="/images/public/images/image.png.png"
+            src="/images/image.png.png"
             alt="Sanket Jamunde"
             className="h-12 w-12 object-contain"
           />
@@ -76,7 +76,7 @@ export default function Navbar() {
             <div className="container-px flex items-center justify-between h-20">
               <a href="#home" onClick={() => setOpen(false)} aria-label="Sanket Jamunde home">
                 <img
-                  src="/images/public/images/image.png.png"
+                  src="/images/image.png.png"
                   alt="Sanket Jamunde"
                   className="h-12 w-12 object-contain"
                 />
