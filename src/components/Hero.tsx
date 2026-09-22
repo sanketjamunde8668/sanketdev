@@ -11,7 +11,7 @@ const socials = [
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="home" className="relative min-h-[100svh] flex items-center overflow-hidden">
       <BackgroundPaths />
 
       <div className="relative z-10 container-px w-full pt-28 pb-20 sm:pt-32 lg:pt-36 grid lg:grid-cols-[1.4fr_1fr] gap-12 lg:gap-16 items-end">
@@ -29,7 +29,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-[16vw] leading-[0.85] font-bold tracking-tighter text-paper sm:text-8xl md:text-9xl"
+            className="text-[clamp(3.5rem,16vw,9rem)] leading-[0.85] font-bold tracking-tighter text-paper"
           >
             SANKET
           </motion.h1>
@@ -38,7 +38,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.25 }}
-            className="mt-6 max-w-full font-mono text-xs sm:text-sm md:text-base tracking-[0.12em] sm:tracking-widest uppercase text-gold"
+            className="mt-6 max-w-full font-mono text-xs sm:text-sm md:text-base tracking-[0.08em] sm:tracking-widest uppercase text-gold"
           >
             Web Developer · AI Automation
           </motion.p>
