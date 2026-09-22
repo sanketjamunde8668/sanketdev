@@ -79,8 +79,8 @@ export default function Hero() {
         >
           <div className="w-full max-w-[280px] overflow-hidden border border-line bg-surface lg:ml-auto">
             <img
-              src="/images/profile.jpg"
-              alt="Illustrated portrait of Sanket Jamunde"
+              src="/images/image.png"
+              alt="Portrait of Sanket Jamunde"
               className="aspect-[4/3] w-full object-cover object-top"
             />
           </div>
