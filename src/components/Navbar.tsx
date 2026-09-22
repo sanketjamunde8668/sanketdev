@@ -32,8 +32,12 @@ export default function Navbar() {
       )}
     >
       <nav className="container-px flex items-center justify-between h-20">
-        <a href="#home" className="font-display text-lg tracking-tight text-paper">
-          SANKET<span className="text-gold">.</span>
+        <a href="#home" className="flex items-center" aria-label="Sanket Jamunde home">
+          <img
+            src="/images/public/images/image copy.png"
+            alt="Sanket Jamunde"
+            className="h-12 w-12 object-contain"
+          />
         </a>
 
         <ul className="hidden lg:flex items-center gap-6 xl:gap-9">
@@ -70,7 +74,13 @@ export default function Navbar() {
             className="fixed inset-0 z-50 overflow-y-auto bg-ink lg:hidden"
           >
             <div className="container-px flex items-center justify-between h-20">
-              <span className="font-display text-lg text-paper">SANKET<span className="text-gold">.</span></span>
+              <a href="#home" onClick={() => setOpen(false)} aria-label="Sanket Jamunde home">
+                <img
+                  src="/images/public/images/image copy.png"
+                  alt="Sanket Jamunde"
+                  className="h-12 w-12 object-contain"
+                />
+              </a>
               <button onClick={() => setOpen(false)} aria-label="Close menu" className="text-paper">
                 <X size={22} />
               </button>
