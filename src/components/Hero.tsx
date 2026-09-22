@@ -77,6 +77,13 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.5 }}
           className="flex flex-col sm:flex-row lg:flex-col items-start lg:items-end gap-5 sm:gap-8 lg:pb-2"
         >
+          <div className="w-full max-w-[280px] overflow-hidden border border-line bg-surface lg:ml-auto">
+            <img
+              src="/images/profile.jpg"
+              alt="Illustrated portrait of Sanket Jamunde"
+              className="aspect-[4/3] w-full object-cover object-top"
+            />
+          </div>
           <div className="flex gap-4">
             {socials.map(({ icon: Icon, href, label }) => (
               <a

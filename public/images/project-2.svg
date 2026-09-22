@@ -7,5 +7,15 @@
       <stop offset="1" stop-color="#0A0E1A" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <text x="40" y="480" font-family="monospace" font-size="20" fill="#8B93A7">project-2.jpg placeholder — replace in /public/images</text>
+  <rect x="48" y="54" width="704" height="390" rx="8" fill="#141A2E" stroke="#D4A24C" stroke-opacity="0.3"/>
+  <rect x="48" y="54" width="704" height="52" rx="8" fill="#1D243A"/>
+  <rect x="78" y="76" width="104" height="9" rx="4" fill="#D4A24C"/>
+  <rect x="560" y="74" width="48" height="12" rx="6" fill="#8B93A7" fill-opacity="0.45"/><rect x="626" y="74" width="74" height="12" rx="6" fill="#8B93A7" fill-opacity="0.25"/>
+  <rect x="88" y="142" width="310" height="24" rx="12" fill="#F1EEE7" fill-opacity="0.85"/>
+  <rect x="88" y="184" width="250" height="10" rx="5" fill="#8B93A7" fill-opacity="0.55"/>
+  <rect x="88" y="207" width="200" height="10" rx="5" fill="#8B93A7" fill-opacity="0.3"/>
+  <rect x="88" y="258" width="205" height="116" rx="6" fill="#D4A24C" fill-opacity="0.75"/>
+  <rect x="317" y="258" width="205" height="116" rx="6" fill="#273B42"/>
+  <rect x="546" y="258" width="152" height="116" rx="6" fill="#49313B"/>
+  <text x="88" y="410" font-family="monospace" font-size="16" fill="#D4A24C">REACT / RESPONSIVE INTERFACE</text>
 </svg>

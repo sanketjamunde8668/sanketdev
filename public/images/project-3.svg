@@ -7,5 +7,13 @@
       <stop offset="1" stop-color="#0A0E1A" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <text x="40" y="480" font-family="monospace" font-size="20" fill="#8B93A7">project-3.jpg placeholder — replace in /public/images</text>
+  <rect x="48" y="54" width="704" height="390" rx="8" fill="#141A2E" stroke="#D4A24C" stroke-opacity="0.3"/>
+  <rect x="48" y="54" width="174" height="390" rx="8" fill="#1D243A"/>
+  <rect x="78" y="86" width="102" height="11" rx="5" fill="#D4A24C"/>
+  <rect x="78" y="142" width="114" height="10" rx="5" fill="#8B93A7" fill-opacity="0.4"/><rect x="78" y="174" width="92" height="10" rx="5" fill="#8B93A7" fill-opacity="0.25"/>
+  <rect x="78" y="226" width="114" height="10" rx="5" fill="#8B93A7" fill-opacity="0.4"/><rect x="78" y="258" width="78" height="10" rx="5" fill="#8B93A7" fill-opacity="0.25"/>
+  <rect x="262" y="90" width="210" height="82" rx="6" fill="#273B42"/><rect x="490" y="90" width="210" height="82" rx="6" fill="#49313B"/>
+  <rect x="262" y="204" width="438" height="170" rx="6" fill="#24304C"/>
+  <polyline points="284,334 342,292 398,314 460,250 514,276 570,226 634,258 682,214" fill="none" stroke="#D4A24C" stroke-width="5"/>
+  <text x="262" y="410" font-family="monospace" font-size="16" fill="#D4A24C">API DATA / OPERATIONS DASHBOARD</text>
 </svg>

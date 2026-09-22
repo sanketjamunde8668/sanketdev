@@ -7,5 +7,14 @@
       <stop offset="1" stop-color="#0A0E1A" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <text x="40" y="480" font-family="monospace" font-size="20" fill="#8B93A7">project-1.jpg placeholder — replace in /public/images</text>
+  <rect x="48" y="54" width="704" height="390" rx="8" fill="#141A2E" stroke="#D4A24C" stroke-opacity="0.3"/>
+  <rect x="48" y="54" width="704" height="52" rx="8" fill="#1D243A"/>
+  <circle cx="78" cy="80" r="6" fill="#C96A4B"/><circle cx="100" cy="80" r="6" fill="#D4A24C"/><circle cx="122" cy="80" r="6" fill="#6F9B78"/>
+  <rect x="88" y="145" width="260" height="18" rx="9" fill="#D4A24C" fill-opacity="0.8"/>
+  <rect x="88" y="182" width="390" height="10" rx="5" fill="#8B93A7" fill-opacity="0.55"/>
+  <rect x="88" y="205" width="300" height="10" rx="5" fill="#8B93A7" fill-opacity="0.3"/>
+  <rect x="88" y="260" width="190" height="92" rx="6" fill="#24304C"/>
+  <rect x="298" y="260" width="190" height="92" rx="6" fill="#273B42"/>
+  <rect x="508" y="260" width="190" height="92" rx="6" fill="#49313B"/>
+  <text x="88" y="402" font-family="monospace" font-size="16" fill="#D4A24C">WHATSAPP AUTOMATION / LIVE FLOW</text>
 </svg>
