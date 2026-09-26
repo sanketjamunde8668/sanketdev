@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sanketwebdev.vercel.app/sitemap.xml
